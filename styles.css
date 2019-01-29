@@ -128,6 +128,9 @@
         background-color: black;
     }
 
+    .header span{
+        font: white;
+    }
     .reviews{
         display: flex;
         align-items: flex-end;
@@ -156,12 +159,20 @@
 }
 
 #gmap_canvas{
-    width: 100%;    
+    width: 50%;    
 }
 #search{
     width: 100%;
     padding: 1% 2%;
     display: none
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer1 div{
+    color: white;
 }
 
     @media(max-width: 320px){
@@ -188,11 +199,19 @@
                 height: 50vh;
             }
 
+            #gmap_canvas{
+                width: 100%;    
+            }
+
     }
 
     .article_flex {
         display:flex;
 
+    }
+
+    .footer 1{
+        background-color 
     }
 
     @media(max-width: 320px){
