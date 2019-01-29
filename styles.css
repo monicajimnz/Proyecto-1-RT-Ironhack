@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Arimo';
+    box-sizing: border-box; /* a pesar de que le agregue padding y margin respeta el tamaño del contenedor */
+
+    }
+
+.header{
+    position:fixed;
+    top: 0;
+    padding-top: 150px;
+
+}
+
+
+    .nav1{
+        font-size: 2rem;
+        width: 100%;
+        background-color: black;
+        font-size: 35px;
+    }
+
+    .nav2{
+        color: white;
+        background-color:black;
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        padding: 4%;
+    }
+
+    .nav2 span{
+        border-right: 1px solid white;
+        cursor: pointer;
+    }
+
+
+    header nav span{
+        color: white;
+        background-color:black;
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        padding: 1%;
+    }
+
+    .CTA {
+        width: 100vw;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+    }
+
+    .CTA button{
+        font: 10px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: .5rem;
+        color: white;
+        background-color: black;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 30vw;
+        margin-left: 15vw;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        border:solid 1px yellow;
+    }
+
+    .Products{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        flex-direction: column;
+        box-sizing: border-box
+    }
+
+    .Products h1 {
+        color: white;
+    }
+
+    .Products div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100vw;
+    }
+    .Products div img {
+        width: 100px;
+        height: 375px;
+        margin-right: 10px;
+    }
+    
+    .Products div #img1:hover {
+        transition: all ease-in-out .5s;
+        margin-bottom: 15px;
+    }
+
+    .Products div #img2:hover {
+        transition: all ease-in-out .5s;
+        margin-bottom: 15px;
+    }
+
+    .Products div #img3:hover {
+        transition: all ease-in-out .5s;
+        margin-bottom: 15px;
+    }
+
+    .Products{
+        background-color: black;
+    }
+
+    .reviews{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+
+    @media(max-width: 320px){
+            #img1 {
+                display: none;
+            }
+            #img2 {
+                display: none;
+            }
+    }
+
+    .article_flex {
+        display:flex;
+
+    }
+
+    
