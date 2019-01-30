@@ -131,10 +131,7 @@
     .header span{
         font: white;
     }
-    .reviews{
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
+
     }
     .carousel-item img {
         opacity: .7;
@@ -159,7 +156,7 @@
 }
 
 #gmap_canvas{
-    width: 50%;    
+    width: 100%;    
 }
 #search{
     width: 100%;
